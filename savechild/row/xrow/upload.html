@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>complaints</title>
+</head>
+<body>
+<form action="upload_file.php" method="post" enctype="multipart/form-data">
+
+<h2>COMPLAINTS</h2>
+
+NAME:
+<input type='text' name='fn' placeholder='First Name' id='fn'/>&nbsp;&nbsp;&nbsp;<input type='text' name='ln' id='ln' placeholder='Last Name'/>
+<br>
+EMAIL ID:
+<input type='email' name='email'>
+<br>
+SUBJECT:
+<input type='text' name='sub' id='sub'/>
+<br>
+MESSAGE:
+<input type='text' name='msg' id='msg'/>
+<br>
+FILE NAME:
+<input type="file" name="file"/><br/>
+<input type="submit" name="send" value="send"/>
+</form>
+</body>
+</html>
